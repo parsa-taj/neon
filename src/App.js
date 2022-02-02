@@ -1,15 +1,14 @@
-import React, { Component } from 'react'
-import Product from './Components/Product'
+import React, { Component } from "react";
+import ProductList from "./Components/ProductList.js";
 
 export class App extends Component {
-    render() {
-        return (
-            <div>
-                <Product/>
-            </div>
-        )
-    }
+  render() {
+    return (
+      <div>
+        <ProductList />
+      </div>
+    );
+  }
 }
 
-export default App
-
+export default App;
